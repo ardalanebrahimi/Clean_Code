@@ -16,6 +16,16 @@ namespace Clean_Code_Functions
         {
             throw new NotImplementedException();
         }
+
+        private static void includeSetupAndTeardownPages(PageData pageData, bool isSuite)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static bool isTestPage(PageData pageData)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     partial class Blocks_Indenting

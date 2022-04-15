@@ -23,5 +23,14 @@ namespace Clean_Code_Functions
 
             return pageData.getHtml();
         }
+
+        public static String RenderPageWithSetupsAndTeardowns_SallerVersoin(
+            PageData pageData,
+            bool isSuite)
+        {
+            if (isTestPage(pageData))
+                includeSetupAndTeardownPages(pageData, isSuite);
+            return pageData.getHtml();
+        }
     }
 }
