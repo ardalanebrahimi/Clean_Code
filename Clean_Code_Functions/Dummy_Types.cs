@@ -77,7 +77,7 @@ namespace Clean_Code_Functions
 
     internal class PageCrawlerImpl
     {
-        internal static WikiPage getInheritedPage(string SuiteResponder , WikiPage wikiPage)
+        internal static WikiPage getInheritedPage(string SuiteResponder, WikiPage wikiPage)
         {
             throw new NotImplementedException();
         }
@@ -151,7 +151,7 @@ namespace Clean_Code_Functions
     {
         public int Quantity { get; internal set; }
         public Product Product { get; internal set; }
-        public double TotalPrice 
+        public double TotalPrice
             => this.Product.Price * this.Quantity;
     }
 
@@ -159,5 +159,73 @@ namespace Clean_Code_Functions
     {
         public string Name { get; internal set; }
         public int Price { get; set; }
+    }
+
+    internal class Session
+    {
+        internal static void initialize()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    internal class UserGateway
+    {
+        internal static User findByName(string userName)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    internal class User
+    {
+        internal string getPhraseEncodedByPassword()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    internal class Cryptographer
+    {
+        internal string decrypt(string codedPhrase, string password)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    internal class logger
+    {
+        internal static void log(object p)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    internal class Page
+    {
+        internal string name;
+    }
+
+    internal class configKeys
+    {
+        internal static string deleteKey(object p)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    internal class registry
+    {
+        internal static string deleteReference(object name)
+        {
+            throw new NotImplementedException();
+        }
+    }
+    partial class _05_Command_Query_Separation
+    {
+        private string deletePage(Page page)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
