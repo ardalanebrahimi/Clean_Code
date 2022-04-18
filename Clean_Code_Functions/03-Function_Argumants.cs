@@ -33,6 +33,7 @@ namespace Clean_Code_Functions
             }
 
             //Some more code (or none!)
+
         }
         #endregion
 
@@ -88,6 +89,11 @@ namespace Clean_Code_Functions
             public double CalculatePrice(
                 OrderRequest request)
             {
+
+                //double discountRate = getDiscountRate(customer, product, quantity, isGift, deloveryMethod);
+                //double deliveryCost = getDeliveryCost(customer, product, quantity, isGift, deloveryMethod);
+                //return (quantity * product.Price * discountRate) + deliveryCost;
+
                 double discountRate = getDiscountRate(request);
                 double deliveryCost = getDeliveryCost(request);
                 return (request.CalculateTotalPrice() * discountRate) + deliveryCost;
@@ -105,9 +111,10 @@ namespace Clean_Code_Functions
             {
                 return 0;
             }
-            #endregion
+        #endregion
 
         #endregion
+
     }
 
     internal class OrderRequest
