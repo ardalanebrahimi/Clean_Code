@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clean_Code_Naming", "Clean_Code_Naming.csproj", "{F4390603-B9F1-4648-B17E-CFE1BC6A02E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean_Code_Functions", "..\Clean_Code_Functions\Clean_Code_Functions.csproj", "{BD9F75C5-A48D-4CCE-BC35-C44670306A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clean_Code_Functions", "..\Clean_Code_Functions\Clean_Code_Functions.csproj", "{BD9F75C5-A48D-4CCE-BC35-C44670306A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean_Code_Comments", "..\Clean_Code_Comments\Clean_Code_Comments.csproj", "{A00EC34B-6825-4C2F-95BF-88FF2EEE1985}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BD9F75C5-A48D-4CCE-BC35-C44670306A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD9F75C5-A48D-4CCE-BC35-C44670306A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD9F75C5-A48D-4CCE-BC35-C44670306A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00EC34B-6825-4C2F-95BF-88FF2EEE1985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00EC34B-6825-4C2F-95BF-88FF2EEE1985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00EC34B-6825-4C2F-95BF-88FF2EEE1985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00EC34B-6825-4C2F-95BF-88FF2EEE1985}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
