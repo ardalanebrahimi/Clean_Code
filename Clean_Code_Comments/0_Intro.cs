@@ -11,14 +11,16 @@ namespace Clean_Code_Comments
         public void sample_1(Employee employee , bool HOURLY_FLAG)
         {
             // Check to see if the employee is eligible for full benefits
-            if ((employee.Flags != null & HOURLY_FLAG) & (employee.Age > 65)) {
+            if (employee.IsEligibleForFullBenefits(HOURLY_FLAG))
+            {
                 // Do something
             }
 
 
             // VS
 
-            if (employee.IsEligibleForFullBenefits(HOURLY_FLAG)) {
+            if (employee.IsEligibleForFullBenefits(HOURLY_FLAG))
+            {
                 // Do something
             }
         }

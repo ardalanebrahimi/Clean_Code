@@ -27,6 +27,9 @@ namespace Clean_Code_Comments
             }
         }
 
+        // MyProperty data
+        public int MyProperty { get; set; }
+
         #endregion
 
         #region Mandated comments
@@ -141,10 +144,10 @@ namespace Clean_Code_Comments
         public void SampleMethos()
         {
             InputStreamResponse response = new InputStreamResponse();
-            response.setBody(formatter.getResultStream(), formatter.getByteCount());
             // InputStream resultsStream = formatter.getResultStream();
             // StreamReader reader = new StreamReader(resultsStream);
             // response.setContent(reader.read(formatter.getByteCount()));
+            response.setBody(formatter.getResultStream(), formatter.getByteCount());
         }
 
         #endregion
@@ -181,7 +184,7 @@ namespace Clean_Code_Comments
 
         #endregion 
 
-        #region 
+        #region Inobvious connection
 
         public void SampleMethod2(int width, int height)
         {
