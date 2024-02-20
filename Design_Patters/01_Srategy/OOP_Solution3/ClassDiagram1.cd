@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_01_Srategy.OOP_Solution3.Duck">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP_Solution3\Duck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_01_Srategy.OOP_Solution3.MallardDuck">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="_01_Srategy.OOP_Solution3.Duck" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="1.796" />
+        <Point X="5.25" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABQAAAAAA=</HashCode>
+      <FileName>OOP_Solution3\MallardDuck.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.191" />
+  </Class>
+  <Class Name="_01_Srategy.OOP_Solution3.RedHeadDuck">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="_01_Srategy.OOP_Solution3.Duck" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="1.796" />
+        <Point X="5.25" Y="3.924" />
+        <Point X="7.188" Y="3.924" />
+        <Point X="7.188" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABQAAAAAA=</HashCode>
+      <FileName>OOP_Solution3\RedHeadDuck.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_01_Srategy.OOP_Solution3.ReubberDuck">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>OOP_Solution3\ReubberDuck.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_01_Srategy.OOP_Solution3.DecoyDuck">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP_Solution3\DecoyDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="_01_Srategy.OOP_Solution3.Flyable">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>OOP_Solution3\Flyable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_01_Srategy.OOP_Solution3.Quackable">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>OOP_Solution3\Quackable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
